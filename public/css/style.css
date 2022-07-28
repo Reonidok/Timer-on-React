@@ -1,0 +1,47 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    height: 100%;
+    background-color: aquamarine;
+    background-size: cover;
+
+}
+
+p{
+    background-color: azure;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 42px;
+    height: 70px;
+    width: 200px;
+}
+
+#digital-clock{
+    display: flex;
+    position: relative;
+    transform: translate(50%, 50%);
+}
+#digital-clock{
+    align-items: center;
+    justify-content: center;
+    font-size: 72px;
+    color: brown;
+    height: 70px;
+    width: 420px;
+}
+
+#digital-clock::before{
+    transition: 0s;
+}
+
+#date-clock{
+    display: flex;
+    align-items: buttom;
+    height: 100%;
+    font-size: 42px;
+    color: blueviolet;
+    border-collapse: collapse;
+}
